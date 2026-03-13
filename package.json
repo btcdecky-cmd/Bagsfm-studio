@@ -1,1 +1,1 @@
-{ "name": "bagsfm-studio", "version": "1.0.0", "private": true, "dependencies": { "next": "latest", "react": "latest", "react-dom": "latest" }, "scripts": { "dev": "next dev", "build": "next build", "start": "next start" } }
+{ "name": "bagsfm-studio", "version": "1.0.0", "private": true, "dependencies": { "next": "latest", "react": "latest", "react-dom": "latest", "@solana/wallet-adapter-react": "latest", "@solana/web3.js": "latest" }, "scripts": { "dev": "next dev", "build": "next build", "start": "next start" } }
