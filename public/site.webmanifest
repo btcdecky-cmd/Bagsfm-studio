@@ -1,0 +1,17 @@
+{
+  "name": "bagsfm Studio",
+  "short_name": "bagsfm",
+  "description": "Real-time Solana developer platform — build in public, track on-chain activity, and showcase your projects.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060606",
+  "theme_color": "#00ff88",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

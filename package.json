@@ -1,1 +1,26 @@
-{ "name": "bagsfm-studio", "version": "1.0.0", "private": true, "dependencies": { "next": "latest", "react": "latest", "react-dom": "latest", "@solana/wallet-adapter-react": "latest", "@solana/web3.js": "latest" }, "scripts": { "dev": "next dev", "build": "next build", "start": "next start" } }
+{
+  "name": "bagsfm-studio",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@replit/connectors-sdk": "^0.3.0",
+    "@solana/web3.js": "1.98.0",
+    "@supabase/supabase-js": "^2.99.2",
+    "@types/pg": "^8.20.0",
+    "next": "15.2.4",
+    "pg": "^8.20.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.4.5"
+  },
+  "scripts": {
+    "dev": "next dev -p 5000 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 5000 -H 0.0.0.0"
+  }
+}
